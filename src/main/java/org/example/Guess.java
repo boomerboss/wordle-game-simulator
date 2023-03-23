@@ -70,7 +70,7 @@ public class Guess {
 
 
 
-    public double getPercentRemoved(){
+    private double getPercentRemoved(){
         return 100 * ((double)(endWords.length - availableWords.size())/endWords.length);
     }
 
