@@ -21,7 +21,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String[] endWords = readEndWords();
-        System.out.println(Arrays.toString(Guess.getColors("lotto", "tough")));
 
     }
 }
